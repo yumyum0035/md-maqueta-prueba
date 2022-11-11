@@ -1,0 +1,72 @@
+@import "../sass/setup.scss";
+
+.layout-component {
+  width: $container-8;
+  grid-template-areas:
+    "element-1"
+    "element-2"
+    "element-3"
+    "element-4";
+
+  .element-01,
+  .element-02,
+  .element-03 {
+    height: $container-8;
+  }
+
+  .element-01 {
+    grid-area: element-1;
+    background-color: $b-light-coral;
+    align-items: flex-end;
+
+    .child {
+      background-color: $b-platinum;
+      width: 100%;
+      height: 33%;
+    }
+  }
+
+  .element-02 {
+    grid-area: element-2;
+    background-color: $b-davys-grey;
+
+    .child {
+      font-size: 3rem;
+      font-weight: bold;
+      color: white;
+    }
+  }
+
+  .element-03 {
+    grid-area: element-3;
+    background-color: $b-powder-blue;
+  }
+
+  .element-04 {
+    grid-area: element-4;
+    background-color: $b-gainsboro;
+    height: $container-8 / 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .layout-component {
+    width: 100%;
+    max-width: 1200px;
+    gap: 16px;
+    grid-template-areas:
+      "element-1 element-1 element-1 element-1 element-1"
+      "element-3 element-3 element-2 element-2 element-2"
+      "element-4 element-4 element-4 element-4 .";
+
+    .element-01 {
+      justify-items: center;
+      align-items: center;
+
+      .child {
+        width: 50%;
+        margin-top: 32px;
+      }
+    }
+  }
+}

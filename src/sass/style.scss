@@ -1,0 +1,119 @@
+@import "setup.scss";
+
+@import "~holygrailcss/scss/style.scss";
+
+.is-grid {
+  display: grid;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+.gap-16 {
+  gap: 16px;
+}
+.gap-24 {
+  gap: 24px;
+}
+.gap-32 {
+  gap: 32px;
+}
+.gap-64 {
+  gap: 64px;
+}
+
+.jc-center {
+  justify-content: center;
+}
+.jc-baseline {
+  justify-content: baseline;
+}
+.jc-start {
+  justify-content: flex-start;
+}
+.jc-end {
+  justify-content: flex-end;
+}
+
+.ac-center {
+  align-content: center;
+}
+.ac-start {
+  align-content: flex-start;
+}
+.ac-end {
+  align-content: flex-end;
+}
+.ac-sb {
+  align-content: space-between;
+}
+.ac-sa {
+  align-content: space-around;
+}
+
+.ji-center {
+  justify-items: center;
+}
+.ji-baseline {
+  justify-items: baseline;
+}
+.ji-start {
+  justify-items: flex-start;
+}
+.ji-end {
+  justify-items: flex-end;
+}
+
+.ai-center {
+  align-items: center;
+}
+.ai-start {
+  align-items: flex-start;
+}
+.ai-end {
+  align-items: flex-end;
+}
+.ai-sb {
+  align-items: space-between;
+}
+.ai-sa {
+  align-items: space-around;
+}
+
+.skeleton {
+  color: $c-middle-grey;
+  background-color: $c-middle-grey;
+  border-radius: 3px;
+  padding: 0.5em;
+  height: 1rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-75 {
+  width: 75%;
+}
+.w-70 {
+  width: 70%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-25 {
+  width: 25%;
+}
+
+.font-accent {
+  font-family: $font-playfair;
+  font-weight: 700;
+}

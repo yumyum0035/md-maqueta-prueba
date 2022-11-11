@@ -1,0 +1,14 @@
+.flex-grid-component {
+  flex-flow: row wrap;
+  gap: 16px;
+
+  * {
+    flex: 1 0 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .flex-grid-component {
+    max-width: 1000px;
+  }
+}

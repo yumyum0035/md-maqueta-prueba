@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap");
+
+/*Primarios*/
+// $c-black: #000000;
+// $c-primary: #292929;
+// $c-dark-grey: #8e8e8e;
+// $c-middle-grey: #e3e3e3;
+// $c-light-grey: #f0f0f0;
+// $c-white: #ffffff;
+
+/*Semanticos*/
+// $c-error: #b40016;
+// $c-sale: #b40016;
+// $c-info: #1a32a4;
+// $c-success: #76ae4a;
+// $c-warning: #ffc700;
+// $c-feel: #fb9962;
+
+/* Escala de grises*/
+// $c-white -> :#ffffff;
+// $c-50 ->  light-grey:#F1F2F3;
+// $c-100 -> light-grey:#E4E4E7;
+// $c-200 -> middle-grey :#C8C9D0;
+// $c-400 -> dark-grey:#9293A0;
+// $c-600 -> light-grey:#f0f0f0;
+// $c-800 -> dark-grey:#9293A0;
+// $c-black -> primary:#000000;
+
+/* colors from the layout reference, we'll go with these. */
+$c-black: #292929;
+$c-white: #ffffff;
+$c-error: #b40016;
+$c-dark-grey: #8e8e8e;
+$c-middle-grey: #e3e3e3;
+$c-light-grey: #f0f0f0;
+$c-info: #1a32a4;
+$c-green: #76ae4a;
+$c-yellow: #ffc700;
+
+/* Containers*/
+$container-full: 800px;
+$container-fluid: full;
+$container: 800px;
+$container-2: 700px;
+$container-3: 900px;
+$container-4: 356px;
+$container-5: 400px;
+$container-6: 442px;
+$container-7: 595px;
+$container-8: 395px;
+$container-9: 798px;
+$container-10: 432px;
+
+/* Breakpoints*/
+$break-xs: 1px;
+$break-sm: 768px;
+$break-md: 992px;
+$break-lg: 1280px;
+$break-xl: 1500px;
+
+$font-family-light: "DuttiW-Light", "Montserrat", "Helvetica", "Arial",
+  "LucidaGrande", sans-serif;
+$font-family-regular: "DuttiW-Regular", "Montserrat", "Helvetica", "Arial",
+  "LucidaGrande", sans-serif;
+$font-family-medium: "DuttiW-Medium", "Montserrat", "Helvetica", "Arial",
+  "LucidaGrande", sans-serif;
+$font-family-bold: "DuttiW-Bold", "Montserrat", "Helvetica", "Arial",
+  "LucidaGrande", sans-serif;
+$font-family-black: "DuttiW-Black", "Montserrat", "Helvetica", "Arial",
+  "LucidaGrande", sans-serif;
+$font-family-2-regular: "DuttiWExtended-Regular", "Montserrat", "Helvetica",
+  "Arial", "LucidaGrande", sans-serif;
+$font-family-2-medium: "DuttiWExtended-Medium", "Montserrat", "Helvetica",
+  "Arial", "LucidaGrande", sans-serif;
+$font-family-2-bold: "DuttiWExtended-Bold", "Montserrat", "Helvetica", "Arial",
+  "LucidaGrande", sans-serif;
+$font-family-2-black: "DuttiWExtended-ExtraBold", "Montserrat", "Helvetica",
+  "Arial", "LucidaGrande", sans-serif;
+
+$container-full: 800px;
+$container-fluid: full;
+$container: 800px;
+$container-2: 700px;
+$container-3: 900px;
+$container-4: 356px;
+$container-5: 400px;
+$container-6: 442px;
+$container-7: 595px;
+$container-8: 395px;
+$container-9: 798px;
+$container-10: 432px;
+
+$break-xs: 1px;
+$break-sm: 768px;
+$break-md: 992px;
+$break-lg: 1280px;
+$break-xl: 1500px;
+
+$h-100: 100%;
+$height-100: 100%;
+$height-xs: 80px;
+$height-sm: 100px;
+$height-md: 350px;
+$height-lg: 400px;
+$height-xl: 450px;
+$hero-big: 300px;
+$hero-medium: 200px;
+$hero-mini: 100px;
+/* falta implementar: */
+// $hero-big-sm: 500px;
+// $hero-medium-sm: 400px;
+// $hero-mini-sm: 300px;
+
+$modalx-xs: 295px;
+$modalx-sm: 445px;
+$modalx-md: 595px;
+$modalx-lg: 899px;
+$modalx-xl: 995px;
+
+/* headers */
+$headers: (
+  h1: (
+    32px,
+    32px,
+    32px,
+    40px,
+    1.2,
+    medium,
+  ),
+  h2: (
+    24px,
+    24px,
+    24px,
+    32px,
+    1.2,
+    medium,
+  ),
+  h3: (
+    18px,
+    18px,
+    18px,
+    24px,
+    1.2,
+    medium,
+  ),
+  h4: (
+    16px,
+    16px,
+    16px,
+    18px,
+    1.2,
+    bold,
+  ),
+  h5: (
+    16px,
+    16px,
+    16px,
+    16px,
+    1.2,
+    bold,
+  ),
+  h6: (
+    12px,
+    12px,
+    12px,
+    14px,
+    1.2,
+    medium,
+  ),
+  h7: (
+    10px,
+    10px,
+    10px,
+    12px,
+    1.2,
+    medium,
+  ),
+  h8: (
+    8px,
+    8px,
+    8px,
+    10px,
+    1.2,
+    medium,
+  ),
+  h9: (
+    12px,
+    16px,
+    16px,
+    18px,
+    1.2,
+    medium,
+  ),
+  p1: (
+    14px,
+    14px,
+    14px,
+    14px,
+    1.2,
+    regular,
+  ),
+  p2: (
+    14px,
+    14px,
+    16px,
+    18px,
+    1.4,
+    regular,
+  ),
+  p3: (
+    12px,
+    14px,
+    14px,
+    14px,
+    1.2,
+    regular,
+  ),
+  p4: (
+    14px,
+    14px,
+    16px,
+    18px,
+    1.4,
+    medium,
+  ),
+  display1: (
+    32px,
+    32px,
+    32px,
+    48px,
+    1.2,
+    bold,
+  ),
+  prod: (
+    12px,
+    12px,
+    14px,
+    14px,
+    1.2,
+    medium,
+  ),
+  display2: (
+    20px,
+    20px,
+    20px,
+    40px,
+    1.2,
+    bold,
+  ),
+  display3: (
+    16px,
+    16px,
+    16px,
+    24px,
+    1.5,
+    medium,
+  ),
+  display4: (
+    14px,
+    14px,
+    14px,
+    24px,
+    1.5,
+    medium,
+  ),
+  display5: (
+    14px,
+    14px,
+    14px,
+    18px,
+    1.5,
+    regular,
+  ),
+  display6: (
+    12px,
+    12px,
+    12px,
+    18px,
+    1.5,
+    regular,
+  ),
+  display7: (
+    14px,
+    14px,
+    14px,
+    18px,
+    1.5,
+    medium,
+  ),
+  subtitle: (
+    14px,
+    14px,
+    14px,
+    14px,
+    1.4,
+    regular,
+  ),
+);
+$font-weight-light: inherit;
+$font-weight-regular: inherit;
+$font-weight-medium: inherit;
+$font-weight-bold: inherit;
+$font-family-form-placeholder: "DuttiW-Regular", "Helvetica", "Arial",
+  "LucidaGrande", sans-serif;
+$font-family-form: "DuttiW-Regular", "Helvetica", "Arial", "LucidaGrande",
+  sans-serif;
+$headersFixers: (
+  /*name :  fontsize, lineheight */ 14: (14px, 1.5),
+  16: (16px, 1.5),
+  18: (18px, 1.5),
+  20: (20px, 1.5),
+  24: (24px, 1.5),
+  32: (32px, 1.5),
+  40: (40px, 1.5)
+);
+
+$b-davys-grey: #4c4d4cff;
+$b-powder-blue: #b7e0e9ff;
+$b-light-coral: #ee7c7cff;
+$b-platinum: #e2e2e2ff;
+$b-gainsboro: #d9d9d9ff;
+
+$font-playfair: "Playfair Display", serif;

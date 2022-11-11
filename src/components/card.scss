@@ -1,0 +1,24 @@
+.card-container {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-areas:
+    "card-image"
+    "card-text";
+  grid-template-rows: auto minmax(60px, 1fr);
+
+  .card-image {
+    grid-area: card-image;
+  }
+
+  .card-text {
+    grid-area: card-text;
+  }
+}
+
+.fixed-size {
+  grid-template-columns: 200px;
+}
+
+.responsive-size {
+  grid-template-columns: 33vw;
+}
