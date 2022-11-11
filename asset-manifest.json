@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/md-prueba-maquetacion/static/css/main.04fc47aa.css",
+    "main.js": "/md-prueba-maquetacion/static/js/main.4cf1ba2f.js",
+    "static/js/787.c3a8727d.chunk.js": "/md-prueba-maquetacion/static/js/787.c3a8727d.chunk.js",
+    "index.html": "/md-prueba-maquetacion/index.html",
+    "main.04fc47aa.css.map": "/md-prueba-maquetacion/static/css/main.04fc47aa.css.map",
+    "main.4cf1ba2f.js.map": "/md-prueba-maquetacion/static/js/main.4cf1ba2f.js.map",
+    "787.c3a8727d.chunk.js.map": "/md-prueba-maquetacion/static/js/787.c3a8727d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04fc47aa.css",
+    "static/js/main.4cf1ba2f.js"
+  ]
+}
